@@ -1,0 +1,20 @@
+public static class Walec {
+        private double promień, wysokość;
+
+        Walec() {
+            this.promień = 0;
+            this.wysokość = 0;
+        }
+
+        Walec(double promień, double wysokość) {
+            this.promień = promień;
+            this.wysokość = wysokość;
+        }
+
+        void show() {
+            double pole = (Math.PI * promień * promień);
+            double objetosc = pole * wysokość;
+            System.out.println(this + ":\nPole podstawy wynosi \t\t" + pole + " (j²)\nObjetosc walca wynosi \t\t" + objetosc
+                    + " (j³)");
+        }
+    }
