@@ -1,0 +1,11 @@
+public void zad01(){
+       Kwadrat kwadrat1 = new Kwadrat(),
+
+               kwadrat2 = new Kwadrat(2);
+       Kwadrat kwadrat3 = new Kwadrat(8);
+
+       kwadrat1.show();
+       kwadrat2.show();
+       kwadrat3.show();
+
+   }
