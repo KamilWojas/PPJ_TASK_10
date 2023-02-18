@@ -1,0 +1,8 @@
+public void zad5(){
+           System.out.println((new DrzewoIglaste(true, 5, "ładny", 10, 20)).toString());
+           System.out.println((new DrzewoOwocowe(false, 1, "średni na jeża", "pomidor")).toString());
+       }
+
+       public static void main(String[] args) {
+
+       }
