@@ -1,0 +1,23 @@
+public static class Drzewo {
+        private boolean wiecznieZielone;
+        private int wysokosc;
+        private String przekrojDrzewa;
+
+        Drzewo() {
+            this.wiecznieZielone = false;
+            this.wysokosc = 0;
+            this.przekrojDrzewa = "brzydki";
+        }
+
+        Drzewo(boolean wz, int h, String pd) {
+            this.wiecznieZielone = wz;
+            this.wysokosc = h;
+            this.przekrojDrzewa = pd;
+        }
+
+        public String toString() {
+            return "Drzewo " + ((wiecznieZielone) ? "wiecznie zielone" : "sezonowo zielone") + " wysokie na " + wysokosc
+                    + " m, przekroj - " + przekrojDrzewa;
+        }
+
+    }
